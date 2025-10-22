@@ -88,13 +88,10 @@ public class FormPenghitungUmur extends javax.swing.JFrame {
             }
         });
 
+        txtUmur.setEditable(false);
         txtUmur.setName("txtUmur"); // NOI18N
-        txtUmur.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtUmurActionPerformed(evt);
-            }
-        });
 
+        txtHariUlangTahunBerikutnya.setEditable(false);
         txtHariUlangTahunBerikutnya.setName("txtHariUlangTahunBerikutnya"); // NOI18N
 
         btnHitung.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -106,7 +103,7 @@ public class FormPenghitungUmur extends javax.swing.JFrame {
             }
         });
 
-        btnKeluar.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        btnKeluar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnKeluar.setText("KELUAR");
         btnKeluar.setName("btnKeluar"); // NOI18N
         btnKeluar.addActionListener(new java.awt.event.ActionListener() {
@@ -283,10 +280,6 @@ stopFetching = false;
         }
         txtAreaPeristiwa.setText("");
     }//GEN-LAST:event_dateChooserTanggalLahirPropertyChange
-
-    private void txtUmurActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUmurActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtUmurActionPerformed
 
     /**
      * @param args the command line arguments

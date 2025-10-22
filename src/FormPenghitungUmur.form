@@ -190,14 +190,13 @@
         </Component>
         <Component class="javax.swing.JTextField" name="txtUmur">
           <Properties>
+            <Property name="editable" type="boolean" value="false"/>
             <Property name="name" type="java.lang.String" value="txtUmur" noResource="true"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtUmurActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtHariUlangTahunBerikutnya">
           <Properties>
+            <Property name="editable" type="boolean" value="false"/>
             <Property name="name" type="java.lang.String" value="txtHariUlangTahunBerikutnya" noResource="true"/>
           </Properties>
         </Component>
@@ -216,7 +215,7 @@
         <Component class="javax.swing.JButton" name="btnKeluar">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="12" style="3"/>
+              <Font name="Segoe UI" size="12" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="KELUAR"/>
             <Property name="name" type="java.lang.String" value="btnKeluar" noResource="true"/>
